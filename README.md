@@ -87,6 +87,9 @@ granular commits as you go, right? (ed: stop editorializing)
 * As hooks files are used directly by git, the ctags automation provided herein
   should 'just work' whether you use command line git, git GUIs, fugitive in
   vim, magit in emacs, etc...
+* The ctags script in the hooks dir is what calls ctags. If you need anything
+  special in your ctags call (e.g. -e to generate etags for use with emacs),
+  modify the ctags line in there.
 * Make sure you've sourced your `.bashrc` (or equivalent) after adding the
   githist function to it.
 
