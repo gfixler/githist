@@ -15,8 +15,9 @@ later). It also sets up completely automated ctags support.
 
 1. clone this repo to ~/.git_template/
 1. run: $ git config --global init.templatedir '~/.git_template'
-1. add the following to your ~/.bashrc (or equivalent):
+1. add the githist function to your .bashrc (or equivalent)
 
+Here's the githist function:
 
     function githist
     {
@@ -70,7 +71,7 @@ granular commits as you go, right? (ed: stop editorializing)
   new repos created via `$ git init`. If you have existing repos, you can run
   `git init` again in each to pull in the hooks once you've set up the git
   config setting.
-* if you already have a ~/.git_template dir setup, you probably know what
+* if you already have a (~/.git_template) dir setup, you probably know what
   you're doing. Use that knowledge to graft things you want from this repo
   (cloned elsewhere, obviously) into your setup :)
 * `git init` is normally idempotent, safe to run again and again in an existing
@@ -86,6 +87,6 @@ granular commits as you go, right? (ed: stop editorializing)
 * As hooks files are used directly by git, the ctags automation provided herein
   should 'just work' whether you use command line git, git GUIs, fugitive in
   vim, magit in emacs, etc...
-* Make sure you've sourced your '.bashrc' (or equivalent) after adding the
+* Make sure you've sourced your `.bashrc` (or equivalent) after adding the
   githist function to it.
 
