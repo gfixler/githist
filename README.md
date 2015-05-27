@@ -2,10 +2,10 @@
 
 #### Simple, cross-repository change-tracking and tags generation w/ git
 
-This repo provides a ~/.git_template/ directory that sets up very simple
-tracking of which git repositories have had commits, amended commits, merges,
-and/or rebases (and thus which ones you need to remember to push later). It
-also sets up completely automated ctags support
+This repo provides a git template hooks directory with hooks that set up very
+simple tracking of which git repositories have had commits, amended commits,
+merges, and/or rebases (and thus which ones you need to remember to push
+later). It also sets up completely automated ctags support.
 
 ### Requirements
 
