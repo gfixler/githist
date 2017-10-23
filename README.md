@@ -57,7 +57,7 @@ be automatically generated for any new repo created after this is all set up
 (or in which you've later run `git init` (see Notes below)), and they are
 tucked into the `.git` folder for each repo.
 
-If you use Tim Pope's [fugitive] [fug] plugin for Vim, then ctags will be
+If you use Tim Pope's [fugitive][fug] plugin for Vim, then ctags will be
 completely automated. Simply work in new repos (in Vim, of course), and tags
 will be generated as you make your commits and such. You *are* making nice,
 granular commits as you go, right? (ed: stop editorializing)
